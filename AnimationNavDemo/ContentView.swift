@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  AnimationNavDemo
+
 //
 //  Created by Knoxpo MacBook Pro on 22/01/21.
 //
