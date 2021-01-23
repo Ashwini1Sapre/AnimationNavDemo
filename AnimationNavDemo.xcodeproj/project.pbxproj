@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		603FAAD925BBFBF000D12D21 /* RotatingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FAAD825BBFBF000D12D21 /* RotatingCircle.swift */; };
+		603FAADE25BC020700D12D21 /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FAADD25BC020700D12D21 /* SubmitView.swift */; };
+		603FAAE625BC0DDE00D12D21 /* Tick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FAAE525BC0DDE00D12D21 /* Tick.swift */; };
+		603FAAF325BC121A00D12D21 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FAAF225BC121A00D12D21 /* HapticManager.swift */; };
 		60E56C9025BAF9F500C5CA38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E56C8F25BAF9F500C5CA38 /* ContentView.swift */; };
 		60E56C9225BAF9F800C5CA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E56C9125BAF9F800C5CA38 /* Assets.xcassets */; };
 		60E56C9525BAF9F800C5CA38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E56C9425BAF9F800C5CA38 /* Preview Assets.xcassets */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		603FAAD825BBFBF000D12D21 /* RotatingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCircle.swift; sourceTree = "<group>"; };
+		603FAADD25BC020700D12D21 /* SubmitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitView.swift; sourceTree = "<group>"; };
+		603FAAE525BC0DDE00D12D21 /* Tick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tick.swift; sourceTree = "<group>"; };
+		603FAAF225BC121A00D12D21 /* HapticManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		60E56C8825BAF9F500C5CA38 /* AnimationNavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationNavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E56C8F25BAF9F500C5CA38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		60E56C9125BAF9F800C5CA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +122,10 @@
 				60E56CBE25BAFA1400C5CA38 /* Helper.swift */,
 				60E56CC125BAFA1400C5CA38 /* MotherView.swift */,
 				60E56CC025BAFA1400C5CA38 /* ViewRouter.swift */,
+				603FAADD25BC020700D12D21 /* SubmitView.swift */,
+				603FAAE525BC0DDE00D12D21 /* Tick.swift */,
+				603FAAD825BBFBF000D12D21 /* RotatingCircle.swift */,
+				603FAAF225BC121A00D12D21 /* HapticManager.swift */,
 				60E56C9125BAF9F800C5CA38 /* Assets.xcassets */,
 				60E56C9625BAF9F800C5CA38 /* LaunchScreen.storyboard */,
 				60E56C9925BAF9F800C5CA38 /* Info.plist */,
@@ -278,12 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603FAADE25BC020700D12D21 /* SubmitView.swift in Sources */,
 				60E56CC625BAFA1400C5CA38 /* MotherView.swift in Sources */,
+				603FAAE625BC0DDE00D12D21 /* Tick.swift in Sources */,
+				603FAAD925BBFBF000D12D21 /* RotatingCircle.swift in Sources */,
 				60E56CC425BAFA1400C5CA38 /* ContentViewA.swift in Sources */,
 				60E56CC525BAFA1400C5CA38 /* ViewRouter.swift in Sources */,
 				60E56CCC25BAFA2700C5CA38 /* NavigatingInSwiftUIApp.swift in Sources */,
 				60E56CC725BAFA1400C5CA38 /* ContentViewB.swift in Sources */,
 				60E56C9025BAF9F500C5CA38 /* ContentView.swift in Sources */,
+				603FAAF325BC121A00D12D21 /* HapticManager.swift in Sources */,
 				60E56CC325BAFA1400C5CA38 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
