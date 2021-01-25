@@ -140,6 +140,43 @@
 			path = Hikes;
 			sourceTree = "<group>";
 		};
+		608010E525BEFF0B00B6DED7 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				608010D525BEEA5000B6DED7 /* AnimationWithBindingdemo.swift */,
+				608010AF25BECF6000B6DED7 /* IndicatorView.swift */,
+				608010BA25BEDCA900B6DED7 /* TransitionView.swift */,
+				608010A725BECAD900B6DED7 /* FlipButtonWithAnimation.swift */,
+				608010C225BEDF7B00B6DED7 /* DelayView.swift */,
+				608010CD25BEE68900B6DED7 /* ExplisetAnimationView.swift */,
+				608010DD25BEF18000B6DED7 /* CustumView.swift */,
+			);
+			path = AnimationView;
+			sourceTree = "<group>";
+		};
+		608010E625BEFF3D00B6DED7 /* ButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				603FAADD25BC020700D12D21 /* SubmitView.swift */,
+				603FAAE525BC0DDE00D12D21 /* Tick.swift */,
+				603FAAD825BBFBF000D12D21 /* RotatingCircle.swift */,
+				603FAAF225BC121A00D12D21 /* HapticManager.swift */,
+			);
+			path = ButtonAnimation;
+			sourceTree = "<group>";
+		};
+		608010E725BEFF6800B6DED7 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				60E56C8F25BAF9F500C5CA38 /* ContentView.swift */,
+				60E56CBF25BAFA1400C5CA38 /* ContentViewA.swift */,
+				60E56CC225BAFA1400C5CA38 /* ContentViewB.swift */,
+				60E56CBE25BAFA1400C5CA38 /* Helper.swift */,
+				60E56CC125BAFA1400C5CA38 /* MotherView.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
 		60E56C7F25BAF9F500C5CA38 = {
 			isa = PBXGroup;
 			children = (
@@ -163,26 +200,13 @@
 		60E56C8A25BAF9F500C5CA38 /* AnimationNavDemo */ = {
 			isa = PBXGroup;
 			children = (
+				608010E725BEFF6800B6DED7 /* NavigationView */,
+				608010E625BEFF3D00B6DED7 /* ButtonAnimation */,
+				608010E525BEFF0B00B6DED7 /* AnimationView */,
 				6080109A25BEAADB00B6DED7 /* Hikes */,
 				6080108F25BEA6E300B6DED7 /* Model */,
 				60E56CCB25BAFA2700C5CA38 /* NavigatingInSwiftUIApp.swift */,
-				608010D525BEEA5000B6DED7 /* AnimationWithBindingdemo.swift */,
-				608010AF25BECF6000B6DED7 /* IndicatorView.swift */,
-				608010BA25BEDCA900B6DED7 /* TransitionView.swift */,
-				608010A725BECAD900B6DED7 /* FlipButtonWithAnimation.swift */,
-				608010C225BEDF7B00B6DED7 /* DelayView.swift */,
-				608010CD25BEE68900B6DED7 /* ExplisetAnimationView.swift */,
-				60E56C8F25BAF9F500C5CA38 /* ContentView.swift */,
-				60E56CBF25BAFA1400C5CA38 /* ContentViewA.swift */,
-				60E56CC225BAFA1400C5CA38 /* ContentViewB.swift */,
-				60E56CBE25BAFA1400C5CA38 /* Helper.swift */,
-				60E56CC125BAFA1400C5CA38 /* MotherView.swift */,
 				60E56CC025BAFA1400C5CA38 /* ViewRouter.swift */,
-				603FAADD25BC020700D12D21 /* SubmitView.swift */,
-				603FAAE525BC0DDE00D12D21 /* Tick.swift */,
-				603FAAD825BBFBF000D12D21 /* RotatingCircle.swift */,
-				603FAAF225BC121A00D12D21 /* HapticManager.swift */,
-				608010DD25BEF18000B6DED7 /* CustumView.swift */,
 				6080108A25BEA6AB00B6DED7 /* hikeData.json */,
 				60E56C9125BAF9F800C5CA38 /* Assets.xcassets */,
 				60E56C9625BAF9F800C5CA38 /* LaunchScreen.storyboard */,
