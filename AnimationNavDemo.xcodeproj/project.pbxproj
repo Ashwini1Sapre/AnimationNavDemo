@@ -11,6 +11,20 @@
 		603FAADE25BC020700D12D21 /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FAADD25BC020700D12D21 /* SubmitView.swift */; };
 		603FAAE625BC0DDE00D12D21 /* Tick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FAAE525BC0DDE00D12D21 /* Tick.swift */; };
 		603FAAF325BC121A00D12D21 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FAAF225BC121A00D12D21 /* HapticManager.swift */; };
+		6080108B25BEA6AB00B6DED7 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6080108A25BEA6AB00B6DED7 /* hikeData.json */; };
+		6080109125BEA70000B6DED7 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080109025BEA70000B6DED7 /* Hike.swift */; };
+		6080109625BEA88C00B6DED7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080109525BEA88C00B6DED7 /* ModelData.swift */; };
+		6080109F25BEAB4A00B6DED7 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080109B25BEAB4A00B6DED7 /* GraphCapsule.swift */; };
+		608010A025BEAB4A00B6DED7 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080109C25BEAB4A00B6DED7 /* HikeView.swift */; };
+		608010A125BEAB4A00B6DED7 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080109D25BEAB4A00B6DED7 /* HikeDetail.swift */; };
+		608010A225BEAB4A00B6DED7 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080109E25BEAB4A00B6DED7 /* HikeGraph.swift */; };
+		608010A825BECAD900B6DED7 /* FlipButtonWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608010A725BECAD900B6DED7 /* FlipButtonWithAnimation.swift */; };
+		608010B025BECF6000B6DED7 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608010AF25BECF6000B6DED7 /* IndicatorView.swift */; };
+		608010BB25BEDCA900B6DED7 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608010BA25BEDCA900B6DED7 /* TransitionView.swift */; };
+		608010C325BEDF7B00B6DED7 /* DelayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608010C225BEDF7B00B6DED7 /* DelayView.swift */; };
+		608010CE25BEE68900B6DED7 /* ExplisetAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608010CD25BEE68900B6DED7 /* ExplisetAnimationView.swift */; };
+		608010D625BEEA5000B6DED7 /* AnimationWithBindingdemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608010D525BEEA5000B6DED7 /* AnimationWithBindingdemo.swift */; };
+		608010DE25BEF18000B6DED7 /* CustumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608010DD25BEF18000B6DED7 /* CustumView.swift */; };
 		60E56C9025BAF9F500C5CA38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E56C8F25BAF9F500C5CA38 /* ContentView.swift */; };
 		60E56C9225BAF9F800C5CA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E56C9125BAF9F800C5CA38 /* Assets.xcassets */; };
 		60E56C9525BAF9F800C5CA38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E56C9425BAF9F800C5CA38 /* Preview Assets.xcassets */; };
@@ -47,6 +61,20 @@
 		603FAADD25BC020700D12D21 /* SubmitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitView.swift; sourceTree = "<group>"; };
 		603FAAE525BC0DDE00D12D21 /* Tick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tick.swift; sourceTree = "<group>"; };
 		603FAAF225BC121A00D12D21 /* HapticManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		6080108A25BEA6AB00B6DED7 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		6080109025BEA70000B6DED7 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		6080109525BEA88C00B6DED7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		6080109B25BEAB4A00B6DED7 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		6080109C25BEAB4A00B6DED7 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		6080109D25BEAB4A00B6DED7 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		6080109E25BEAB4A00B6DED7 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		608010A725BECAD900B6DED7 /* FlipButtonWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipButtonWithAnimation.swift; sourceTree = "<group>"; };
+		608010AF25BECF6000B6DED7 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		608010BA25BEDCA900B6DED7 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		608010C225BEDF7B00B6DED7 /* DelayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayView.swift; sourceTree = "<group>"; };
+		608010CD25BEE68900B6DED7 /* ExplisetAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplisetAnimationView.swift; sourceTree = "<group>"; };
+		608010D525BEEA5000B6DED7 /* AnimationWithBindingdemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationWithBindingdemo.swift; sourceTree = "<group>"; };
+		608010DD25BEF18000B6DED7 /* CustumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustumView.swift; sourceTree = "<group>"; };
 		60E56C8825BAF9F500C5CA38 /* AnimationNavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationNavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E56C8F25BAF9F500C5CA38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		60E56C9125BAF9F800C5CA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,6 +120,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6080108F25BEA6E300B6DED7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6080109025BEA70000B6DED7 /* Hike.swift */,
+				6080109525BEA88C00B6DED7 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6080109A25BEAADB00B6DED7 /* Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				6080109B25BEAB4A00B6DED7 /* GraphCapsule.swift */,
+				6080109D25BEAB4A00B6DED7 /* HikeDetail.swift */,
+				6080109E25BEAB4A00B6DED7 /* HikeGraph.swift */,
+				6080109C25BEAB4A00B6DED7 /* HikeView.swift */,
+			);
+			path = Hikes;
+			sourceTree = "<group>";
+		};
 		60E56C7F25BAF9F500C5CA38 = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +163,15 @@
 		60E56C8A25BAF9F500C5CA38 /* AnimationNavDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6080109A25BEAADB00B6DED7 /* Hikes */,
+				6080108F25BEA6E300B6DED7 /* Model */,
 				60E56CCB25BAFA2700C5CA38 /* NavigatingInSwiftUIApp.swift */,
+				608010D525BEEA5000B6DED7 /* AnimationWithBindingdemo.swift */,
+				608010AF25BECF6000B6DED7 /* IndicatorView.swift */,
+				608010BA25BEDCA900B6DED7 /* TransitionView.swift */,
+				608010A725BECAD900B6DED7 /* FlipButtonWithAnimation.swift */,
+				608010C225BEDF7B00B6DED7 /* DelayView.swift */,
+				608010CD25BEE68900B6DED7 /* ExplisetAnimationView.swift */,
 				60E56C8F25BAF9F500C5CA38 /* ContentView.swift */,
 				60E56CBF25BAFA1400C5CA38 /* ContentViewA.swift */,
 				60E56CC225BAFA1400C5CA38 /* ContentViewB.swift */,
@@ -126,6 +182,8 @@
 				603FAAE525BC0DDE00D12D21 /* Tick.swift */,
 				603FAAD825BBFBF000D12D21 /* RotatingCircle.swift */,
 				603FAAF225BC121A00D12D21 /* HapticManager.swift */,
+				608010DD25BEF18000B6DED7 /* CustumView.swift */,
+				6080108A25BEA6AB00B6DED7 /* hikeData.json */,
 				60E56C9125BAF9F800C5CA38 /* Assets.xcassets */,
 				60E56C9625BAF9F800C5CA38 /* LaunchScreen.storyboard */,
 				60E56C9925BAF9F800C5CA38 /* Info.plist */,
@@ -263,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6080108B25BEA6AB00B6DED7 /* hikeData.json in Resources */,
 				60E56C9825BAF9F800C5CA38 /* LaunchScreen.storyboard in Resources */,
 				60E56C9525BAF9F800C5CA38 /* Preview Assets.xcassets in Resources */,
 				60E56C9225BAF9F800C5CA38 /* Assets.xcassets in Resources */,
@@ -290,17 +349,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608010B025BECF6000B6DED7 /* IndicatorView.swift in Sources */,
 				603FAADE25BC020700D12D21 /* SubmitView.swift in Sources */,
 				60E56CC625BAFA1400C5CA38 /* MotherView.swift in Sources */,
 				603FAAE625BC0DDE00D12D21 /* Tick.swift in Sources */,
+				6080109625BEA88C00B6DED7 /* ModelData.swift in Sources */,
 				603FAAD925BBFBF000D12D21 /* RotatingCircle.swift in Sources */,
 				60E56CC425BAFA1400C5CA38 /* ContentViewA.swift in Sources */,
+				6080109F25BEAB4A00B6DED7 /* GraphCapsule.swift in Sources */,
 				60E56CC525BAFA1400C5CA38 /* ViewRouter.swift in Sources */,
+				6080109125BEA70000B6DED7 /* Hike.swift in Sources */,
+				608010C325BEDF7B00B6DED7 /* DelayView.swift in Sources */,
 				60E56CCC25BAFA2700C5CA38 /* NavigatingInSwiftUIApp.swift in Sources */,
 				60E56CC725BAFA1400C5CA38 /* ContentViewB.swift in Sources */,
+				608010A825BECAD900B6DED7 /* FlipButtonWithAnimation.swift in Sources */,
+				608010BB25BEDCA900B6DED7 /* TransitionView.swift in Sources */,
 				60E56C9025BAF9F500C5CA38 /* ContentView.swift in Sources */,
 				603FAAF325BC121A00D12D21 /* HapticManager.swift in Sources */,
+				608010A025BEAB4A00B6DED7 /* HikeView.swift in Sources */,
 				60E56CC325BAFA1400C5CA38 /* Helper.swift in Sources */,
+				608010D625BEEA5000B6DED7 /* AnimationWithBindingdemo.swift in Sources */,
+				608010A125BEAB4A00B6DED7 /* HikeDetail.swift in Sources */,
+				608010A225BEAB4A00B6DED7 /* HikeGraph.swift in Sources */,
+				608010CE25BEE68900B6DED7 /* ExplisetAnimationView.swift in Sources */,
+				608010DE25BEF18000B6DED7 /* CustumView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

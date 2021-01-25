@@ -16,9 +16,22 @@ struct NavigatingInSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
 
-            SubmitView()
-             //   .environmentObject(viewRouter)
-
+           // MotherView()
+          //  SubmitView()
+            
+            
+            
+            
+          //  HikeView(hike: ModelData().hikes[0])
+               // .environmentObject(viewRouter)
+          //  FlipButtonWithAnimation()
+          //  IndicatorView()
+            //TransitionView()
+         //   DelayView()
+           // ExplisetAnimationView()
+            
+           // AnimationWithBindingdemo()
+            CustumView()
 
         }
     }
