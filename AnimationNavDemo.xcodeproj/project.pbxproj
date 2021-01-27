@@ -11,6 +11,13 @@
 		603FAADE25BC020700D12D21 /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FAADD25BC020700D12D21 /* SubmitView.swift */; };
 		603FAAE625BC0DDE00D12D21 /* Tick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FAAE525BC0DDE00D12D21 /* Tick.swift */; };
 		603FAAF325BC121A00D12D21 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603FAAF225BC121A00D12D21 /* HapticManager.swift */; };
+		6063C6B925C138A500FD5524 /* NewAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063C6B825C138A500FD5524 /* NewAnimationView.swift */; };
+		6063C6BE25C13E5000FD5524 /* TextAnimationText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063C6BD25C13E5000FD5524 /* TextAnimationText.swift */; };
+		6063C6C925C1421A00FD5524 /* TextAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063C6C825C1421A00FD5524 /* TextAnimationView.swift */; };
+		6063C6CE25C14B0E00FD5524 /* RotateIn3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063C6CD25C14B0E00FD5524 /* RotateIn3DView.swift */; };
+		6063C6D325C173EB00FD5524 /* TextfeildAniDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063C6D225C173EB00FD5524 /* TextfeildAniDemo.swift */; };
+		6063C6D825C180ED00FD5524 /* ProgessBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063C6D725C180ED00FD5524 /* ProgessBarView.swift */; };
+		6063C6DD25C19C1C00FD5524 /* TextFwithToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063C6DC25C19C1C00FD5524 /* TextFwithToggleView.swift */; };
 		6080108B25BEA6AB00B6DED7 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6080108A25BEA6AB00B6DED7 /* hikeData.json */; };
 		6080109125BEA70000B6DED7 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080109025BEA70000B6DED7 /* Hike.swift */; };
 		6080109625BEA88C00B6DED7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080109525BEA88C00B6DED7 /* ModelData.swift */; };
@@ -61,6 +68,13 @@
 		603FAADD25BC020700D12D21 /* SubmitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitView.swift; sourceTree = "<group>"; };
 		603FAAE525BC0DDE00D12D21 /* Tick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tick.swift; sourceTree = "<group>"; };
 		603FAAF225BC121A00D12D21 /* HapticManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		6063C6B825C138A500FD5524 /* NewAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnimationView.swift; sourceTree = "<group>"; };
+		6063C6BD25C13E5000FD5524 /* TextAnimationText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimationText.swift; sourceTree = "<group>"; };
+		6063C6C825C1421A00FD5524 /* TextAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimationView.swift; sourceTree = "<group>"; };
+		6063C6CD25C14B0E00FD5524 /* RotateIn3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateIn3DView.swift; sourceTree = "<group>"; };
+		6063C6D225C173EB00FD5524 /* TextfeildAniDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfeildAniDemo.swift; sourceTree = "<group>"; };
+		6063C6D725C180ED00FD5524 /* ProgessBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgessBarView.swift; sourceTree = "<group>"; };
+		6063C6DC25C19C1C00FD5524 /* TextFwithToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFwithToggleView.swift; sourceTree = "<group>"; };
 		6080108A25BEA6AB00B6DED7 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		6080109025BEA70000B6DED7 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		6080109525BEA88C00B6DED7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -150,6 +164,12 @@
 				608010C225BEDF7B00B6DED7 /* DelayView.swift */,
 				608010CD25BEE68900B6DED7 /* ExplisetAnimationView.swift */,
 				608010DD25BEF18000B6DED7 /* CustumView.swift */,
+				6063C6B825C138A500FD5524 /* NewAnimationView.swift */,
+				6063C6C825C1421A00FD5524 /* TextAnimationView.swift */,
+				6063C6CD25C14B0E00FD5524 /* RotateIn3DView.swift */,
+				6063C6D225C173EB00FD5524 /* TextfeildAniDemo.swift */,
+				6063C6D725C180ED00FD5524 /* ProgessBarView.swift */,
+				6063C6DC25C19C1C00FD5524 /* TextFwithToggleView.swift */,
 			);
 			path = AnimationView;
 			sourceTree = "<group>";
@@ -206,6 +226,7 @@
 				6080109A25BEAADB00B6DED7 /* Hikes */,
 				6080108F25BEA6E300B6DED7 /* Model */,
 				60E56CCB25BAFA2700C5CA38 /* NavigatingInSwiftUIApp.swift */,
+				6063C6BD25C13E5000FD5524 /* TextAnimationText.swift */,
 				60E56CC025BAFA1400C5CA38 /* ViewRouter.swift */,
 				6080108A25BEA6AB00B6DED7 /* hikeData.json */,
 				60E56C9125BAF9F800C5CA38 /* Assets.xcassets */,
@@ -379,19 +400,26 @@
 				603FAAE625BC0DDE00D12D21 /* Tick.swift in Sources */,
 				6080109625BEA88C00B6DED7 /* ModelData.swift in Sources */,
 				603FAAD925BBFBF000D12D21 /* RotatingCircle.swift in Sources */,
+				6063C6BE25C13E5000FD5524 /* TextAnimationText.swift in Sources */,
 				60E56CC425BAFA1400C5CA38 /* ContentViewA.swift in Sources */,
 				6080109F25BEAB4A00B6DED7 /* GraphCapsule.swift in Sources */,
 				60E56CC525BAFA1400C5CA38 /* ViewRouter.swift in Sources */,
 				6080109125BEA70000B6DED7 /* Hike.swift in Sources */,
+				6063C6CE25C14B0E00FD5524 /* RotateIn3DView.swift in Sources */,
+				6063C6D825C180ED00FD5524 /* ProgessBarView.swift in Sources */,
 				608010C325BEDF7B00B6DED7 /* DelayView.swift in Sources */,
+				6063C6D325C173EB00FD5524 /* TextfeildAniDemo.swift in Sources */,
+				6063C6B925C138A500FD5524 /* NewAnimationView.swift in Sources */,
 				60E56CCC25BAFA2700C5CA38 /* NavigatingInSwiftUIApp.swift in Sources */,
 				60E56CC725BAFA1400C5CA38 /* ContentViewB.swift in Sources */,
 				608010A825BECAD900B6DED7 /* FlipButtonWithAnimation.swift in Sources */,
 				608010BB25BEDCA900B6DED7 /* TransitionView.swift in Sources */,
+				6063C6DD25C19C1C00FD5524 /* TextFwithToggleView.swift in Sources */,
 				60E56C9025BAF9F500C5CA38 /* ContentView.swift in Sources */,
 				603FAAF325BC121A00D12D21 /* HapticManager.swift in Sources */,
 				608010A025BEAB4A00B6DED7 /* HikeView.swift in Sources */,
 				60E56CC325BAFA1400C5CA38 /* Helper.swift in Sources */,
+				6063C6C925C1421A00FD5524 /* TextAnimationView.swift in Sources */,
 				608010D625BEEA5000B6DED7 /* AnimationWithBindingdemo.swift in Sources */,
 				608010A125BEAB4A00B6DED7 /* HikeDetail.swift in Sources */,
 				608010A225BEAB4A00B6DED7 /* HikeGraph.swift in Sources */,

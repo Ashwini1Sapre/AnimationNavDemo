@@ -22,8 +22,8 @@ struct NavigatingInSwiftUIApp: App {
             
             
             
-            HikeView(hike: ModelData().hikes[0])
-                .environmentObject(viewRouter)
+         //   HikeView(hike: ModelData().hikes[0])
+               // .environmentObject(viewRouter)
           //  FlipButtonWithAnimation()
           //  IndicatorView()
             //TransitionView()
@@ -32,7 +32,14 @@ struct NavigatingInSwiftUIApp: App {
             
            // AnimationWithBindingdemo()
           //  CustumView()
-
+      //  NewAnimationView()
+     // TextAnimationView()
+      //  TextAnimationText()
+           // RotateIn3DView()
+           // TextfeildAniDemo()
+     //   ProgessBarView()
+            
+            TextFwithToggleView()
         }
     }
 }
