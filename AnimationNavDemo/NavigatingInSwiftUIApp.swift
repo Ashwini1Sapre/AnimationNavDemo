@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct NavigatingInSwiftUIApp: App {
 
-
+    var window: UIWindow?
     @StateObject var viewRouter = ViewRouter()
     
     var body: some Scene {
@@ -33,13 +33,28 @@ struct NavigatingInSwiftUIApp: App {
            // AnimationWithBindingdemo()
           //  CustumView()
       //  NewAnimationView()
+            
+            //27Jan
      // TextAnimationView()
       //  TextAnimationText()
-           // RotateIn3DView()
+         //   RotateIn3DView()
            // TextfeildAniDemo()
      //   ProgessBarView()
             
-            TextFwithToggleView()
+         //   TextFwithToggleView()
+            
+            
+     
+            //28jan
+      //      1.
+        let appFlowCoordinator = AppFlowCoordinator()
+          RootView().environmentObject(appFlowCoordinator)
+         //   2.
+         //   GeomatryView()
+         //AnimationViewShow()
+        //    ImageGrideView()
+        
+            
         }
     }
 }

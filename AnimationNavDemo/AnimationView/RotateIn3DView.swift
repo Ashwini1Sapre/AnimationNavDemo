@@ -9,9 +9,14 @@ import SwiftUI
 
 struct RotateIn3DView: View {
     @State private var rotateIn3D = false
+ 
     @State private var horizontalAligment: HorizontalAlignment = .leading
+ 
     
     let wheatherBg = LinearGradient(gradient: Gradient(colors: [Color.blue, Color.red, Color.green]), startPoint: .topLeading, endPoint: .bottomTrailing)
+ 
+    
+    
     var body: some View {
        
         VStack {
@@ -36,6 +41,8 @@ struct RotateIn3DView: View {
                 
                 
             }
+            
+           
             .padding()
             .background(Color.blue)
             .background(Color.yellow)
@@ -45,14 +52,23 @@ struct RotateIn3DView: View {
             
             
         }.frame(width: 170, height: 170, alignment: .leading)
+        
+        
         .rotation3DEffect(.degrees(rotateIn3D ? 12 : -12), axis: (x: rotateIn3D ? 90 : -40, y: rotateIn3D ? -45 : -90, z:0))
+        
+     
             
         .animation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: true), value: rotateIn3D)
+      
         .animation(.default, value: horizontalAligment)
+        
+        
+      
         .onAppear(){
             
             
             rotateIn3D.toggle()
+           
         }
          
             

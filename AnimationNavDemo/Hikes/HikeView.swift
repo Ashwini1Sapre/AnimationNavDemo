@@ -22,15 +22,7 @@ extension AnyTransition {
 }
 
 
-//extension Animation {
-//    
-//    static func ripple(index: Int) -> Animation {
-//        Animation.spring(dampingFraction: 1.2)
-//            .speed(2)
-//            .delay(3.0 * Double(index))
-//    }
-//    
-//}
+
 
 struct HikeView: View {
     var hike: Hike

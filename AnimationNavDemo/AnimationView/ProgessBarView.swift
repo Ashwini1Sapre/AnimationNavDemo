@@ -146,8 +146,4 @@ struct PercentageIndicator: AnimatableModifier {
 
 
 
-//struct ProgessBarView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ProgessBarView()
-//    }
-//}
+

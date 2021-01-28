@@ -17,8 +17,4 @@ class ViewRouter: ObservableObject {
 
 
 
-//class ViewRouter: ObservableObject {
-//    
-//    
-//    @Published var currentPage: Page = .page1
-//}
+
