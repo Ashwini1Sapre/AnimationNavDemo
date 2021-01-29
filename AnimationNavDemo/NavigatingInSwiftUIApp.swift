@@ -47,12 +47,18 @@ struct NavigatingInSwiftUIApp: App {
      
             //28jan
       //      1.
-        let appFlowCoordinator = AppFlowCoordinator()
-          RootView().environmentObject(appFlowCoordinator)
+      //  let appFlowCoordinator = AppFlowCoordinator()
+        //  RootView().environmentObject(appFlowCoordinator)
          //   2.
          //   GeomatryView()
          //AnimationViewShow()
         //    ImageGrideView()
+            
+            //29Jan
+            //1
+            //LIstViewAnimation()
+            SearchWithListView()
+           // MoveRowDemo()
         
             
         }
